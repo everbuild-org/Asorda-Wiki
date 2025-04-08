@@ -6,23 +6,30 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: {
-				github: 'https://github.com/withastro/starlight',
+			title: {
+				en: 'Asordapedia',
+				de: 'Asordapedia',
+				fr: 'Asordapedia',
 			},
-			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+			// Set English as the default language for this site.
+			defaultLocale: 'en',
+			locales: {
+				// English docs in `src/content/docs/en/`
+				en: {
+					label: 'English',
+					lang: 'en_US',
 				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+				// German docs in `src/content/docs/de/`
+				de: {
+					label: 'Deutsch',
+					lang: 'de_DE',
 				},
-			],
+				// France docs in `src/content/docs/es/`
+				fr: {
+					label: 'Français',
+					lang: 'fr_FR',
+				},
+			},
 		}),
 	],
 });

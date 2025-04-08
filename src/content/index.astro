@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Asordapedia</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+You are being redirected to the new docs page. If you are not redirected,
+please click <a href="https://wiki.asorda.net/en">here</a>.<br />
+Du wirst auf die neue Docs Seite weitergeleitet. Wenn du nicht
+weitergeleitet wirst, klicke bitte
+<a href="https://wiki.asorda.net/de">hier</a>.
+
+<script>
+    // Check if user is german
+    if (navigator.language.startsWith("de")) {
+        window.location.href = "https://wiki.asorda.net/de";
+    } else if (navigator.language.startsWith("fr")) {
+        window.location.href = "https://wiki.asorda.net/fr";
+    } else {
+        window.location.href = "https://wiki.asorda.net/en";
+    }
+</script>
+</body>
+</html>
