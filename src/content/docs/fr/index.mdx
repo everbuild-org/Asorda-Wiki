@@ -1,0 +1,30 @@
+---
+title: Bienvenue à Asorda Docs
+template: splash
+hero:
+  tagline: Bienvenue sur notre page Wiki ! Vous y trouverez toutes les informations utiles sur notre réseau.
+  image:
+    file: ../../../assets/rocket.png
+  actions:
+    - text: Pour commencer
+      link: /en/tradehub/
+      icon: right-arrow
+    - text: Visitez notre site web !
+      link: https://asorda.net/
+      icon: external
+      variant: minimal
+---
+
+import {Card, CardGrid} from '@astrojs/starlight/components';
+
+## Prochaines étapes
+
+<CardGrid stagger>
+	<Card title="Visitez le TradeHub!" icon="comment-alt">
+        En savoir plus sur notre Trade Hub - toutes les informations clés en un coup d'œil.
+	</Card>
+	<Card title="Aidez-nous à améliorer notre Wiki!" icon="add-document">
+        Visitez notre page GitHub et soumettez vos suggestions d'amélioration directement en tant que contribution au wiki.
+        Qu'il s'agisse de fautes de frappe, de nouveaux contenus ou de meilleurs exemples, chaque aide compte !
+    </Card>
+</CardGrid>

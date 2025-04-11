@@ -7,7 +7,7 @@ hero:
     file: ../../../assets/rocket.png
   actions:
     - text: Getting Started
-      link: /guides/example/
+      link: /en/tradehub/
       icon: right-arrow
     - text: Visit our website!
       link: https://asorda.net/
@@ -15,21 +15,16 @@ hero:
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import {Card, CardGrid} from '@astrojs/starlight/components';
 
 ## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Visit the TradeHub!" icon="comment-alt">
+        Learn more about our Trade Hub – all the key information at a glance.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+	<Card title="Help us to improve our Wiki!" icon="add-document">
+        Visit our GitHub page and submit your suggestions for improvement directly as a contribution to the wiki.
+        Whether typos, new content or better examples - every help counts!
+    </Card>
 </CardGrid>
