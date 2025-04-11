@@ -10,7 +10,7 @@ Join now and explore the vast universe on our Minecraft Server. On our network, 
 
 ## Contributing
 
-Anyone is welcome to contribute to the documentation. If you would like to contribute, please fork the repository and submit a pull request. If you are unsure of how to do this, please contact us on our [Discord](https://discord.gg/NqxhvnhE7V).
+Anyone is welcome to contribute to the documentation. If you would like to contribute, please fork the repository and submit a pull request. If you are unsure of how to do this, please contact us on our [Discord](https://discord.gg/h4Smr5YTnN).
 If you notice any issues with the documentation, please submit an issue on github.
 
 ## Building
