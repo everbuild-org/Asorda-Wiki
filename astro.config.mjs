@@ -4,8 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://github.com/everbuild-org/asorda.github.io',
-	base: 'asorda.github.io',
+	site: 'https://wiki.asorda.net',
 	integrations: [
 		starlight({
 			title: {
